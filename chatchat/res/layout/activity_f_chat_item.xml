@@ -1,0 +1,68 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/RelativeLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    tools:context="com.example.chatchat.Friend_list_item" >
+
+    <ImageView
+        android:id="@+id/friend_pro"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:layout_gravity="center"
+        android:layout_margin="10dp"
+        android:src="@drawable/person" />
+
+        <TextView
+            android:id="@+id/name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="5dp"
+            android:layout_toRightOf="@+id/friend_pro"
+            android:text="TextView"
+            android:textSize="17sp" />
+
+        <TextView
+            android:id="@+id/time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="5dp"
+            android:text="TextView"
+            android:textColor="#BDBDBD" />
+        
+            <TextView
+            android:id="@+id/last_dialog"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/name"
+            android:layout_below="@+id/name"
+            android:gravity="center"
+            android:paddingBottom="5dp"
+            android:text="TextView"
+            android:textColor="#BDBDBD" />
+                
+
+        <TextView
+            android:id="@+id/count2"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_alignLeft="@+id/time"
+            android:layout_alignTop="@+id/last_dialog"
+            android:layout_marginLeft="16dp"
+            android:layout_marginBottom="5dp"
+            android:background="@drawable/round6"
+            android:gravity="center"
+            android:text="11"
+            android:textColor="#ffffff"
+            android:textSize="12sp"
+            android:visibility="visible" />
+
+
+</RelativeLayout>

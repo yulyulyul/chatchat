@@ -1,0 +1,24 @@
+<resources>
+
+    <style name="AppBaseTheme" parent="android:Theme.Light">
+    </style>
+    
+    <style name="AppTheme" parent="AppBaseTheme">
+        
+    </style>
+
+    <style name = "SplashTheme" parent = "@android:style/Theme.Light.NoTitleBar">
+        <item name = "android:windowBackground">@drawable/splash2</item>
+    </style>
+    
+    <style name="Theme.Transparent" parent="android:Theme">
+    <item name="android:windowIsTranslucent">true</item>
+    <item name="android:windowBackground">@android:color/transparent</item>
+    <item name="android:windowContentOverlay">@null</item>
+    <item name="android:windowNoTitle">true</item>
+    <item name="android:windowIsFloating">true</item>
+    <item name="android:backgroundDimEnabled">false</item>
+	</style>
+
+
+</resources>

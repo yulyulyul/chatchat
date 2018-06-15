@@ -1,0 +1,28 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/RelativeLayout1"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+     >
+
+    <ImageView
+        android:id="@+id/icon"
+        android:layout_width="33dip"
+        android:layout_height="30dip"
+        android:layout_margin="5dp"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:background="@drawable/on_addfriend" />
+
+        <TextView
+        android:id="@+id/count"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:gravity="center"
+        android:background="@drawable/round5"
+        android:layout_alignTop="@+id/icon"
+        android:layout_toRightOf="@+id/icon"
+        android:textColor="#ffffff"
+        android:visibility="invisible"
+        android:text="1" />
+        
+</RelativeLayout>

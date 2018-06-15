@@ -1,0 +1,50 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/LinearLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.chatchat.Y_picture" >
+    
+    <ImageView
+   	    android:id="@+id/profile_img"
+   	    android:layout_margin="5dip"
+   	    android:layout_width="35dp"
+   	    android:layout_height="35dp"
+   	    android:src="@drawable/person" />
+    
+    <LinearLayout 
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+    
+    <TextView
+        android:id="@+id/user_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="top"
+        android:layout_marginTop="5dip"
+        android:layout_marginLeft="5dip"
+        android:textColor="#000000"
+        android:text="user_id" />
+
+    
+    <ImageView
+        android:id="@+id/img"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+         android:background="@drawable/bubble6"
+        android:src="@drawable/ic_launcher" />
+
+    </LinearLayout>
+    
+	<TextView
+        android:id="@+id/time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:textSize="10sp"
+        android:text="Small Text"
+        android:textAppearance="?android:attr/textAppearanceSmall" />
+
+</LinearLayout>

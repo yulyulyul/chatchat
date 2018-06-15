@@ -1,0 +1,81 @@
+<FrameLayout
+     xmlns:android="http://schemas.android.com/apk/res/android"
+   		xmlns:tools="http://schemas.android.com/tools"
+   		 android:layout_width="match_parent"
+	    android:layout_height="match_parent">
+	<LinearLayout
+	    android:id="@+id/chatting"
+	    android:layout_width="match_parent"
+	    android:layout_height="match_parent"
+	    android:orientation="vertical"
+	    tools:context="com.example.chatting.MainActivity" >
+	    
+	    
+		    <ListView 
+		    android:id="@+id/in"
+		    android:layout_width="match_parent"
+		    android:layout_height="match_parent"
+		    android:layout_weight="1"
+		    />
+		    
+		    <LinearLayout 
+		        android:orientation="horizontal"
+		        android:layout_width="match_parent"
+		        android:layout_height="wrap_content">
+	
+		        <Button
+		            android:id="@+id/pic"
+		            android:layout_width="50dp"
+		            android:layout_height="30dp"
+		            android:layout_marginLeft="5dp"
+		            android:background="@drawable/button_background"
+		            android:textColor="#ffffff"
+		            android:text="사진" />
+		        
+		        <EditText 
+		            android:id="@+id/et"
+		            android:layout_width="match_parent"
+		            android:layout_height="wrap_content"
+		            android:layout_weight="1"/>
+		        
+		        <Button
+		            android:id="@+id/btn" 
+		            android:layout_width="80dip"
+		            android:layout_height="30dip"
+		            android:layout_marginRight="5dip"
+		            android:background="@drawable/button_background"
+		            android:textColor="#ffffff"
+		            android:text="전송"/>
+		    </LinearLayout>
+	</LinearLayout>
+	
+	<RelativeLayout 
+	android:id="@+id/profile_addfriend"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#80000000"
+    android:visibility="invisible"
+    tools:context="com.example.chatchat.Allchat" >
+
+    <ImageView
+        android:id="@+id/profile_IMAGE"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="80dp"
+        android:src="@drawable/person" />
+
+    <Button
+        android:id="@+id/add_friend"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/profile_IMAGE"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        android:background="@drawable/adddd"
+        />
+
+</RelativeLayout>
+</FrameLayout>
+

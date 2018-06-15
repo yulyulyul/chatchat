@@ -1,0 +1,68 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/LinearLayout2"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.chatchat.ChatRoom" >
+
+    <LinearLayout 
+         android:layout_width="match_parent"
+    	 android:layout_height="wrap_content"
+    	 android:background="#07679D"
+         android:orientation="horizontal"
+        >    
+    <TextView
+        android:id="@+id/header"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="10dip"
+        android:textSize="20dip"
+         android:gravity="center"
+        android:layout_weight="0.999"
+        android:layout_gravity="center"
+        android:textStyle="bold"
+        android:textColor="#ffffff"
+        android:text="대화방"
+        />
+
+    <Button
+        android:id="@+id/plus"
+        android:layout_width="34dp"
+        android:layout_height="34dp"
+        android:layout_gravity="center"
+        android:layout_marginRight="10dip"
+        android:background="@drawable/add"
+        android:padding="10dip" />
+    
+    
+    </LinearLayout>
+    
+    <ListView
+        android:id="@+id/listView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" 
+		android:dividerHeight="0dp" >
+        
+    </ListView>
+    
+    <RelativeLayout 
+	    android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+	    
+	    <TextView 
+	   android:id="@+id/empty77"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:text="생성된 대화방이 존재하지 않습니다. \n    방을 만들어 대화를 시작하세요."
+       android:visibility="gone"
+       android:layout_centerHorizontal="true"
+       android:layout_centerVertical="true"
+        
+       />
+	    
+</RelativeLayout>
+
+
+
+</LinearLayout>

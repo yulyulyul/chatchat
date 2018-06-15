@@ -1,0 +1,303 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/Login"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#24A8E2"
+    android:orientation="vertical"
+    tools:context="com.example.chatchat.Membership" >
+
+
+    <LinearLayout
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:gravity="center"
+		android:layout_weight="0.2"
+		android:orientation="horizontal" >
+
+        <ImageView
+            android:id="@+id/imageView1"
+            android:layout_width="60dp"
+            android:layout_height="100dp"
+            android:layout_margin="10dp"
+            android:layout_weight="0.2"
+            android:gravity="center"
+            android:src="@drawable/image_" />
+
+        <TextView
+            android:id="@+id/membership"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="MEMBERSHIP"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="#154d88" />
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="20dp"
+            android:layout_height="30dp"
+            android:layout_marginTop="20dp"
+            android:layout_gravity="top"
+            android:layout_weight="0.2"
+            android:src="@drawable/moon" />
+			
+		</LinearLayout>
+		
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_weight="0.2"
+        android:orientation="horizontal" >
+
+         <TextView
+            android:id="@+id/tt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.3"
+            android:text="" />
+         
+        <TextView
+            android:id="@+id/ID"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:text="ID"
+            android:textColor="#ffffff"
+            android:layout_weight="0.2"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <EditText
+            android:id="@+id/et_id"
+            android:layout_width="210dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="18dp"
+            android:hint="아이디를 입력해주세요."
+            android:textColorHint="#E0E0E0"
+            android:gravity="center"
+            android:layout_weight="0.2"
+            android:layout_gravity="center"
+            android:background="@drawable/login_back"
+            android:ems="10" >
+
+            <requestFocus />
+        </EditText>
+        
+        <TextView
+            android:id="@+id/rw"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.3"
+            android:text="" />
+
+    </LinearLayout>
+    
+        <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.2"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.3"
+            android:text="" />
+
+        <TextView
+            android:id="@+id/password"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:text="PW"
+            android:textColor="#ffffff"
+            android:layout_weight="0.2"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <EditText
+            android:id="@+id/et_pw"
+            android:layout_width="210dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="10dp"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:layout_weight="0.2"
+            android:hint="비밀번호를 입력해주세요."
+            android:background="@drawable/login_back"
+            android:textColorHint="#E0E0E0"
+            android:ems="10" >
+
+            <requestFocus />
+        </EditText>
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.3"
+            android:text="" />
+
+    </LinearLayout>
+
+        
+        <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+         android:layout_gravity="center_horizontal"
+         android:layout_weight="0.2"
+        android:orientation="horizontal" >
+
+       <TextView
+            android:id="@+id/ada"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.3"
+            android:text="" />
+
+        <TextView
+            android:id="@+id/nickname"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:text="Nick"
+            android:textColor="#ffffff"
+            android:layout_weight="0.15"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <EditText
+            android:id="@+id/et_nickname"
+            android:layout_width="210dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="10dp"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:layout_weight="0.2"
+            android:hint="별명을 입력해주세요."
+            android:textColorHint="#E0E0E0"
+            android:background="@drawable/login_back"
+            android:ems="10" >
+
+            <requestFocus />
+        </EditText>
+
+        <TextView
+            android:id="@+id/efefe"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.3"
+            android:text="" />
+
+    </LinearLayout>
+    
+        <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+         android:layout_gravity="center_horizontal"
+         android:layout_weight="0.2"
+        android:orientation="horizontal" >
+
+	     <TextView
+	    android:id="@+id/adaff"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_weight="0.1"
+	    android:text="" />
+	     
+        <TextView
+            android:id="@+id/Gender"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.3"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:text="Gender"
+            android:textColor="#ffffff"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <CheckBox
+            
+            android:id="@+id/checkBox1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.25"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:text="Male"
+            android:textColor="#ffffff"
+             />
+
+        <CheckBox
+            android:id="@+id/checkBox2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.25"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:textColor="#ffffff"
+            android:text="Female" />
+
+    </LinearLayout>
+    
+         <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+         android:layout_gravity="center_horizontal"
+         android:layout_weight="0.2"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/Age"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#ffffff"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:layout_weight="0.35"
+            android:text="Age"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <Spinner
+            android:id="@+id/spinner1"
+            android:gravity="center"
+            android:layout_weight="0.3"
+            android:prompt="@string/AgePrompt"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:background="@drawable/login_back"
+            android:layout_gravity="center"
+ 		/>
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.4"
+            android:text="" />
+
+    </LinearLayout>
+
+         <RelativeLayout
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:layout_weight="0.2" >
+
+             <Button
+                 android:id="@+id/finish"
+                 android:layout_width="wrap_content"
+                 android:layout_height="40dp"
+                 android:layout_alignParentTop="true"
+                 android:layout_centerHorizontal="true"
+                 android:text="Enjoy"
+                 android:textColor="#ffffff"
+                 android:background="@drawable/login_selector"
+                  />
+
+         </RelativeLayout>
+    
+</LinearLayout>

@@ -1,0 +1,103 @@
+# view AndroidManifest.xml #generated:69
+-keep class com.example.chatchat.Allchat { <init>(...); }
+
+# view AndroidManifest.xml #generated:53
+-keep class com.example.chatchat.ChatRoom { <init>(...); }
+
+# view AndroidManifest.xml #generated:191
+-keep class com.example.chatchat.Chatting_toast2 { <init>(...); }
+
+# view AndroidManifest.xml #generated:179
+-keep class com.example.chatchat.Empty { <init>(...); }
+
+# view AndroidManifest.xml #generated:155
+-keep class com.example.chatchat.Excute_chatRoom { <init>(...); }
+
+# view AndroidManifest.xml #generated:171
+-keep class com.example.chatchat.F_chat { <init>(...); }
+
+# view AndroidManifest.xml #generated:175
+-keep class com.example.chatchat.F_chat_item { <init>(...); }
+
+# view AndroidManifest.xml #generated:167
+-keep class com.example.chatchat.Friend { <init>(...); }
+
+# view AndroidManifest.xml #generated:163
+-keep class com.example.chatchat.Friend_list_item { <init>(...); }
+
+# view AndroidManifest.xml #generated:130
+-keep class com.example.chatchat.GcmBroadcastReceiver { <init>(...); }
+
+# view AndroidManifest.xml #generated:161
+-keep class com.example.chatchat.GcmIntentService { <init>(...); }
+
+# view AndroidManifest.xml #generated:61
+-keep class com.example.chatchat.Header { <init>(...); }
+
+# view AndroidManifest.xml #generated:85
+-keep class com.example.chatchat.M_picture { <init>(...); }
+
+# view AndroidManifest.xml #generated:48
+-keep class com.example.chatchat.MainActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:81
+-keep class com.example.chatchat.MainChat { <init>(...); }
+
+# view AndroidManifest.xml #generated:97
+-keep class com.example.chatchat.Membership { <init>(...); }
+
+# view AndroidManifest.xml #generated:149
+# view AndroidManifest.xml #generated:183
+-keep class com.example.chatchat.MessageBroadcastReceiver { <init>(...); }
+
+# view AndroidManifest.xml #generated:93
+-keep class com.example.chatchat.Over { <init>(...); }
+
+# view AndroidManifest.xml #generated:125
+-keep class com.example.chatchat.Over_profile_pic { <init>(...); }
+
+# view AndroidManifest.xml #generated:140
+-keep class com.example.chatchat.PackageReceiver { <init>(...); }
+
+# view AndroidManifest.xml #generated:101
+-keep class com.example.chatchat.Profile { <init>(...); }
+
+# view AndroidManifest.xml #generated:113
+-keep class com.example.chatchat.Profile_StateMessage { <init>(...); }
+
+# view AndroidManifest.xml #generated:109
+-keep class com.example.chatchat.Profile_age { <init>(...); }
+
+# view AndroidManifest.xml #generated:117
+-keep class com.example.chatchat.Profile_modify_pic { <init>(...); }
+
+# view AndroidManifest.xml #generated:105
+-keep class com.example.chatchat.Profile_name { <init>(...); }
+
+# view AndroidManifest.xml #generated:121
+-keep class com.example.chatchat.Profile_state_message_dialog { <init>(...); }
+
+# view AndroidManifest.xml #generated:57
+-keep class com.example.chatchat.Requset_Friends { <init>(...); }
+
+# view AndroidManifest.xml #generated:65
+-keep class com.example.chatchat.SettingChatRoom { <init>(...); }
+
+# view AndroidManifest.xml #generated:187
+-keep class com.example.chatchat.Simple_response { <init>(...); }
+
+# view AndroidManifest.xml #generated:39
+-keep class com.example.chatchat.SplashActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:89
+-keep class com.example.chatchat.Y_picture { <init>(...); }
+
+# view AndroidManifest.xml #generated:77
+-keep class com.example.chatchat.add_friends { <init>(...); }
+
+# view AndroidManifest.xml #generated:73
+-keep class com.example.chatchat.personalChat { <init>(...); }
+
+# onClick res/layout/activity_main.xml #generated:128
+-keepclassmembers class * { *** login(...); }
+

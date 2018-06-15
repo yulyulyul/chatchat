@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry exported="true" kind="con" path="com.android.ide.eclipse.adt.ANDROID_FRAMEWORK"/>
+	<classpathentry exported="true" kind="con" path="com.android.ide.eclipse.adt.LIBRARIES"/>
+	<classpathentry exported="true" kind="con" path="com.android.ide.eclipse.adt.DEPENDENCIES"/>
+	<classpathentry kind="src" path="/google-play-services_lib"/>
+	<classpathentry exported="true" kind="lib" path="C:/library/org-apache-commons-codec.jar/org-apache-commons-codec.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/library/glide-3.6.1.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/library/json-simple-1.1.1.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/library/thumbnailator-0.4.8.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/library/commons-io-2.2.jar/commons-io-2.2.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/library/picasso-2.5.2.jar"/>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="src" path="gen"/>
+	<classpathentry kind="output" path="bin/classes"/>
+</classpath>

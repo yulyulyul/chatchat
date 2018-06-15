@@ -1,0 +1,42 @@
+<FrameLayout 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+   		xmlns:tools="http://schemas.android.com/tools"
+   		 android:layout_width="match_parent"
+	    android:layout_height="match_parent"
+	    >
+<LinearLayout 
+    android:id="@+id/Friend_chat_list"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.chatchat.F_chat" >
+
+    <ListView
+        android:id="@+id/f_chat_List"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+    </ListView>
+
+
+    <RelativeLayout 
+	    android:layout_width="match_parent"
+        android:layout_height="match_parent" 
+	    >
+	    
+	   <TextView 
+	   android:id="@+id/empty3"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:text="생성된 대화방이 존재하지 않습니다. \n    친구들과 대화를 시작하세요."
+       android:visibility="gone"
+       android:layout_centerHorizontal="true"
+       android:layout_centerVertical="true"
+        
+       />
+	    
+	</RelativeLayout>
+	
+
+</LinearLayout>
+
+</FrameLayout>

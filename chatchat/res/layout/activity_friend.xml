@@ -1,0 +1,70 @@
+<FrameLayout 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+   		xmlns:tools="http://schemas.android.com/tools"
+   		 android:layout_width="match_parent"
+	    android:layout_height="match_parent"
+	    >
+<LinearLayout 
+    android:id="@+id/Friend_list"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.chatchat.Requset_Friends" >
+
+    <ListView
+        android:id="@+id/f_List2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+    </ListView>
+
+    <RelativeLayout 
+	    android:layout_width="match_parent"
+        android:layout_height="match_parent" 
+	    >
+	    
+	   <TextView 
+	   android:id="@+id/empty2"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:text="     아직 맺어진 친구가 없습니다.\n친구요청을 통해 친구를 맺어보세요."
+       android:visibility="gone"
+       android:layout_centerHorizontal="true"
+       android:layout_centerVertical="true"
+        
+       />
+	    
+	</RelativeLayout>
+	
+
+
+</LinearLayout>
+
+<RelativeLayout
+    android:id="@+id/f_profile"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#80000000"
+    android:visibility="invisible"
+    tools:context="com.example.chatchat.Allchat" >
+
+    <ImageView
+        android:id="@+id/f_profile_IMAGE"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="80dp"
+        android:src="@drawable/person" />
+
+      <Button
+          android:id="@+id/chat_btn"
+          android:layout_width="50dp"
+          android:layout_height="50dp"
+          android:layout_below="@+id/f_profile_IMAGE"
+          android:layout_centerHorizontal="true"
+          android:layout_marginTop="52dp"
+          android:background="@drawable/chat" />
+
+</RelativeLayout>
+
+</FrameLayout>

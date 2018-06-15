@@ -1,0 +1,51 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/LinearLayout2"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.chatchat.Profile_modify_pic" >
+    
+       <TextView
+	        android:id="@+id/textView576"
+	        android:layout_width="wrap_content"
+	        android:layout_height="20dp"
+	        android:text="" />
+       
+    <LinearLayout 
+        android:layout_width="match_parent"
+    	android:layout_height="match_parent"
+    	android:orientation="horizontal"
+        >
+
+	    <TextView
+	        android:id="@+id/textView1"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_weight="0.3"
+	        android:text="" />
+	
+	    <ImageView
+	        android:id="@+id/img"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_gravity="center_horizontal"
+	        android:layout_weight="0.3"
+	        android:src="@drawable/person" />
+	
+	    <TextView
+	        android:id="@+id/textView2"
+	        android:layout_weight="0.3"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:text="" />
+	        
+        
+    </LinearLayout>
+  <TextView
+	        android:id="@+id/textView5676"
+	        android:layout_width="wrap_content"
+	        android:layout_height="20dp"
+	        android:text="" />
+  
+</LinearLayout>

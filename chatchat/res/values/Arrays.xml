@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	
+	<string-array name = "Age">
+		<item >[Age]</item>
+		<item >10대 초반</item>
+		<item >10대 중반</item>
+		<item >10대 후반</item>
+		<item >20대 초반</item>
+		<item >20대 중반</item>
+		<item >20대 후반</item>
+		<item >30대 초반</item>
+		<item >30대 중반</item>
+		<item >30대 후반</item>
+		<item >40대 초반</item>
+		<item >40대 중반</item>
+		<item >40대 후반</item>
+		
+		
+	</string-array>
+	
+</resources>
